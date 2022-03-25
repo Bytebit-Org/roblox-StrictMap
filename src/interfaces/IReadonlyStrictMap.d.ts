@@ -1,7 +1,7 @@
 /**
  * Defines an interface for reading from a strict map
  */
- export interface IReadonlyStrictMap<K extends defined, V extends defined> {
+export interface IReadonlyStrictMap<K extends defined, V extends defined> {
 	/**
 	 * Returns an array of tuples for all members of this instance
 	 */
@@ -10,7 +10,7 @@
 	/**
 	 * Performs the specified action for each (element / pair of elements) in the Map
 	 * @param callbackfn  A function that accepts up to three arguments.
-     * forEach calls the callbackfn function one time for each (element / pair of elements) in the array.
+	 * forEach calls the callbackfn function one time for each (element / pair of elements) in the array.
 	 */
 	forEach(callbackfn: (value: V, key: K, self: this) => void): void;
 

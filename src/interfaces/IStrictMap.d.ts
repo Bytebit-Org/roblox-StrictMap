@@ -7,16 +7,16 @@ export interface IStrictMap<K extends defined, V extends defined> extends IReado
 	/**
 	 * Deletes all members of this instance
 	 */
-	clear(): void
+	clear(): void;
 
 	/**
 	 * Deletes the given key from this instance
 	 * @returns A boolean indicating whether or not a value was removed.
 	 */
-	delete(key: K): boolean
+	delete(key: K): boolean;
 
 	/**
 	 * Associates a key with a value which can be accessed later by the given key
 	 */
-	set(key: K, value: V): boolean
+	set(key: K, value: V): boolean;
 }
