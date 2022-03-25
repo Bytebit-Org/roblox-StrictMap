@@ -14,7 +14,7 @@
   </a>
 </p>
 
-Strict Map is short description.
+Strict Map is a simple class that looks like a regular map but that throws if indexed by a missing key.
 
 ## Installation
 ### roblox-ts
@@ -26,7 +26,7 @@ npm i @rbxts/strict-map
 ### Wally
 [Wally](https://github.com/UpliftGames/wally/) users can install this package by adding the following line to their `Wally.toml` under `[dependencies]`:
 ```
-StrictMap = "bytebit/strict-map@0.0.1"
+StrictMap = "bytebit/strict-map@1.0.0"
 ```
 
 Then just run `wally install`.

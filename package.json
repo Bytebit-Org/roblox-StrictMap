@@ -1,7 +1,7 @@
 {
   "name": "@rbxts/strict-map",
-  "version": "0.0.1",
-  "description": "Short description.",
+  "version": "1.0.0",
+  "description": "A simple class that looks like a regular map but that throws if indexed by a missing key.",
   "main": "out/init.lua",
   "scripts": {
     "eslint": "npx eslint \"src/**/*.ts\" --max-warnings 0",
