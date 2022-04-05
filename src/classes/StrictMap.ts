@@ -1,5 +1,5 @@
 import { HttpService } from "@rbxts/services";
-import { IReadonlyStrictMap } from "interfaces/IReadonlyStrictMap";
+import { IReadonlyStrictMap } from "../interfaces/IReadonlyStrictMap";
 
 export class StrictMap<K extends defined, V extends defined> implements IReadonlyStrictMap<K, V> {
 	private map: Map<K, V>;
